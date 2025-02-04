@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/healthIndicatorsScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/healthIndicatorsLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Fragment Title -->
+        <TextView
+            android:id="@+id/healthIndicatorsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health Indicators"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Blood Pressure Display -->
+        <TextView
+            android:id="@+id/bpTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Pressure: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Weight Display -->
+        <TextView
+            android:id="@+id/weightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Height Display -->
+        <TextView
+            android:id="@+id/heightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height: "
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
